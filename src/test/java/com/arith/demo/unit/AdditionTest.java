@@ -1,4 +1,4 @@
-package com.company.demo.unit;
+package com.arith.demo.unit;
 
 import static org.junit.Assert.assertEquals;
 
