@@ -19,7 +19,7 @@ public class AdditionTest {
   }
 
   @Test
-  public void addition_anothe_test() {
+  public void addition_another_test() {
     assertEquals(7, addition.addition(4, 3));
   }
 }
