@@ -2,7 +2,7 @@ package com.arith.demo.unit;
 
 import static org.junit.Assert.assertEquals;
 
-import com.company.demo.endpoint.rest.controller.AdditionController;
+import com.arith.demo.endpoint.rest.controller.AdditionController;
 import org.junit.Test;
 
 public class AdditionTest {
@@ -16,5 +16,10 @@ public class AdditionTest {
   @Test
   public void addition_test_no_overflow() {
     assertEquals(3_000_000_000L, addition.addition(1_000_000_000, 2_000_000_000));
+  }
+
+  @Test
+  public void addition_anothe_test() {
+    assertEquals(7, addition.addition(4, 3));
   }
 }
